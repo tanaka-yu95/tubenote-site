@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>TubeNote プライバシーポリシー</title>
+    <style>
+      :root { color-scheme: light dark; --accent: #7c3aed; }
+      body {
+        margin: 0;
+        font-family: system-ui, -apple-system, "Hiragino Sans", "Noto Sans JP", "Yu Gothic UI", sans-serif;
+        line-height: 1.8;
+        color: #1f2937;
+        background: #ffffff;
+      }
+      @media (prefers-color-scheme: dark) {
+        body { color: #e5e7eb; background: #111113; }
+        .meta, .note { color: #9ca3af; }
+      }
+      main { max-width: 720px; margin: 0 auto; padding: 48px 20px 80px; }
+      h1 { font-size: 1.6rem; margin: 0 0 4px; }
+      h2 { font-size: 1.1rem; margin: 2em 0 0.4em; padding-left: 10px; border-left: 4px solid var(--accent); }
+      .meta { color: #6b7280; font-size: 0.9rem; margin: 0 0 2em; }
+      ul { padding-left: 1.3em; }
+      .note { color: #6b7280; font-size: 0.9rem; margin-top: 3em; }
+    </style>
+  </head>
+  <body>
+    <main>
+      <h1>TubeNote プライバシーポリシー</h1>
+      <p class="meta">制定日：2026年11月25日</p>
+
+      <p>
+        TubeNote（以下「本拡張機能」）は、YouTube の動画にタイムスタンプ付きの学習メモを残すための Chrome
+        拡張機能です。本ポリシーは、本拡張機能が扱う情報とその扱い方を説明します。
+      </p>
+
+      <h2>1. 保存する情報</h2>
+      <ul>
+        <li>ユーザーが入力したメモの本文と、そのタイムスタンプ</li>
+        <li>メモを残した動画のタイトル、URL、最終更新日時</li>
+        <li>ユーザーが撮影した動画フレームのスクリーンショット（Pro プラン）</li>
+        <li>Pro プランの有効状態</li>
+      </ul>
+      <p>
+        これらはすべて、お使いのブラウザ内（chrome.storage）にのみ保存されます。開発者のサーバーや第三者に送信することはありません。
+      </p>
+
+      <h2>2. 収集しない情報</h2>
+      <p>
+        閲覧履歴、メモを残していないページの内容、キー入力、位置情報などは収集しません。アクセス解析や広告のためのツールも使用していません。
+      </p>
+
+      <h2>3. 有料プランの決済（ExtensionPay / Stripe）</h2>
+      <p>
+        Pro プランの購入と支払い状態の確認には、第三者の決済サービス ExtensionPay（extensionpay.com）と、その決済基盤である Stripe
+        を使用します。購入時に入力するメールアドレスやカード情報は、これらのサービスが取り扱います。本拡張機能がカード情報を取得することはありません。
+      </p>
+      <p>
+        本拡張機能が ExtensionPay から受け取るのは、支払い状態などライセンスの確認に必要な情報だけです。ExtensionPay
+        との通信で、メモや動画の情報を送信することはありません。各サービスでの情報の扱いは、各社のプライバシーポリシーをご確認ください。
+      </p>
+
+      <h2>4. 第三者への提供</h2>
+      <p>
+        保存した情報を第三者に販売・提供することはありません。本拡張機能の機能と関係のない目的や、信用力の判断や融資の目的で使用することもありません。
+      </p>
+
+      <h2>5. データの削除</h2>
+      <p>
+        メモやノートは、ノートパネルまたはポップアップからいつでも削除できます。本拡張機能をアンインストールすると、ブラウザ内に保存されたデータはすべて削除されます。
+      </p>
+
+      <h2>6. 安全管理</h2>
+      <p>ExtensionPay との通信は、すべて HTTPS で暗号化されます。</p>
+
+      <h2>7. 本ポリシーの変更</h2>
+      <p>内容を変更する場合は、このページでお知らせします。</p>
+
+      <h2>8. お問い合わせ</h2>
+      <!-- TODO: 公開前に連絡先（メールアドレスなど）を記入する -->
+      <p>本ポリシーに関するお問い合わせは、[連絡先を記入] までご連絡ください。</p>
+
+      <p class="note">TubeNote は YouTube および Google とは関係のない個人開発の拡張機能です。</p>
+    </main>
+  </body>
+</html>
